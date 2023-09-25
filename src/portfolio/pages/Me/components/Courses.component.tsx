@@ -5,120 +5,57 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import SchoolIcon from '@mui/icons-material/School';
 const courses = [
     {
-        img: '/img/next.png',
+        img: '/img/nodejs.png',
         year: '2023',
         platform: 'Udemy',
-        tags: ['React', 'NextJs', 'Router', 'LazyLoad', 'Auth', 'Server Side Render']
-
-    },
-    {
-        img: '/img/rn.png',
-        year: '2023',
-        platform: 'Udemy',
-        tags: ['React', 'React Native', 'TS', 'Axios', 'Context', 'Redux', 'Push Notification']
-    },
-    {
-        img: '/img/ngrx.png',
-        year: '2022',
-        platform: 'Udemy',
-        tags: ['Angular', 'Redux', 'TS', 'RxJs', 'State Management']
-    },
-    {
-        img: '/img/rn.png',
-        year: '2021',
-        platform: 'Platzi',
-        tags: ['React', 'React Native', 'JS', 'Expo', 'Cli', 'State']
-
+        tags: ['NodeJS', 'Express', 'MongoDB',  'React Native', 'API', 'Docker']
     },
     {
         img: '/img/react.png',
-        year: '2021',
+        year: '2023',
         platform: 'Udemy',
         tags: ['React', 'Context', 'Router', 'Formik', 'TS', 'Axios', 'LazyLoad', 'Suspense']
-
     },
     {
         img: '/img/js.png',
-        year: '2020',
-        platform: 'Platzi',
+        year: '2022',
+        platform: 'freeCodeCamp',
         tags: ['Js', 'ECS6+']
 
     },
     {
-        img: '/img/flutter.png',
-        year: '2020',
-        platform: 'Udemy',
-        tags: ['Flutter', 'Push Notification', 'Redux', 'Http']
-
-    },
-    {
         img: '/img/react.png',
-        year: '2020',
-        platform: 'Udemy',
+        year: '2023',
+        platform: 'FSOpen',
         tags: ['React', 'Components', 'State', 'Styled']
 
     },
     {
         img: '/img/js.png',
-        year: '2019',
-        platform: 'Udemy',
+        year: '2023',
+        platform: 'freeCodeCamp',
         tags: ['Js', 'Arrow functions', 'Promises']
 
     },
     {
-        img: '/img/sass.png',
-        year: '2019',
-        platform: 'Platzi',
-        tags: ['Sass', 'css', 'mixin']
-
-    },
-    {
-        img: '/img/flutter.png',
-        year: '2019',
-        platform: 'Platzi',
-        tags: ['Flutter', 'Widgets', 'State']
-
-    },
-    {
-        img: '/img/spark.png',
-        year: '2018',
+        img: '/img/kotlin.png',
+        year: '2022',
         platform: 'Udemy',
-        tags: ['Spark', 'Big Data', 'Clustering']
+        tags: ['Kotlin', 'JetPackCompose', 'Components', 'MVVM', 'Services']
 
     },
     {
         img: '/img/docker.png',
-        year: '2018',
+        year: '2023',
         platform: 'Udemy',
-        tags: ['Docker', 'Swarm', 'Compose', 'Cluster']
-
-    },
-    {
-        img: '/img/angular.png',
-        year: '2018',
-        platform: 'Udemy',
-        tags: ['Angular', 'Router', 'Reactive Forms', 'Http', 'Interceptor', 'Auth']
-
-    },
-    {
-        img: '/img/angular.png',
-        year: '2017',
-        platform: 'Platzi',
-        tags: ['Angular', 'Router', 'Components', 'Directives', 'Services']
-
-    },
-    {
-        img: '/img/docker.png',
-        year: '2017',
-        platform: 'Platzi',
         tags: ['Docker', 'Images', 'Dockerfile',]
 
     },
 
     {
         img: '/img/git.png',
-        year: '2017',
-        platform: 'Platzi',
+        year: '2022',
+        platform: 'Udemy',
         tags: ['Git', 'Commands', 'Github']
 
     },

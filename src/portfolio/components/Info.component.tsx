@@ -100,16 +100,16 @@ export const InfoComponent = () => {
                         gap: 1
                     }}>
                         <IconButton onClick={() => {
-                            window.open('https://www.linkedin.com/in/ivan-ramses-mart%C3%ADnez-ponce-b17724116/', '_blank');
+                            window.open('https://www.linkedin.com/in/pablo-n-1a4a3669/', '_blank');
                         }} >
                             <LinkedIn />
                         </IconButton>
                         <IconButton onClick={() => {
-                            window.open('https://github.com/RamPonce7/', '_blank');
+                            window.open('https://github.com/PavDev3', '_blank');
                         }}  >
                             <GitHub />
                         </IconButton>
-                        <Tooltip title="ramponcemtz@gmail.com" onClick={handleClick}>
+                        <Tooltip title="pnunfe@gmail.com" onClick={handleClick}>
                             <IconButton   >
                                 <Mail />
                             </IconButton>
@@ -118,10 +118,11 @@ export const InfoComponent = () => {
                             open={open}
                             autoHideDuration={6000}
                             onClose={handleClose}
-                            message="ramponcemtz@gmail.com"
+                            message="pnunfe@gmail.com"
                         />
                         <IconButton onClick={() => {
-                            window.open('http://ramponce7.com/assets/ResumeFullRam2023.pdf', '_blank');
+                            // TODO -> Crear un assset para introducir el PDF con el CV
+                            window.open('', '_blank');
                         }}  >
                             < DescriptionIcon />
                         </IconButton>
@@ -160,7 +161,7 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='80px'>
-                                <img alt='react-native' src="/img/rn.png" width='100%' />
+                                <img alt='JavaScript' src="/img/js.png" width='100%' />
                             </Box>
                         </Grid>
                         <Grid item xs={4} sx={{

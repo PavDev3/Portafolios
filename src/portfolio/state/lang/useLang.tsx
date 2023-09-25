@@ -5,138 +5,90 @@ const langWords: any = {
         resume: 'CV',
         experience: 'Trayectoria',
         portfolio: 'Mi trabajo',
-        name: 'Ivan Ramses Martinez Ponce',
+        name: 'Pablo Núñez Fernández',
         education: 'Educación',
-        school: 'IPN ESCOM',
-        career: 'Ingeniería en Sistemas Computacionales',
+        school: 'IES Perez de Guzman',
+        career: 'Técnico en Sistema Microinformático y Redes, Informática',
         current_stack: 'Stack actual',
         today: 'Actualmente',
-        description_1: 'Desarrollador FrontEnd React y Angular (Js y Ts), con más de 8 años de experiencia creando aplicaciones web robustas.',
-        description_2: ' Desarrollador Mobile  con más de 2 años de experiencia en ReactNative y Flutter.',
-        description_3: 'Experiencia trabajando en equipo y con metodologías ágiles (Scrum)',
+        description_1: 'Desarrollador FrontEnd React y JavaScript, con nociones básicas de TS y NodeJS.',
+        description_2: 'Mis objetivos en enfocarme en React Native y aplicaciones móviles',
+        description_3: 'Experiencia trabajando en mis proyectos pero nunca en una empresa',
         courses_title: 'Cursos',
         projects_title: 'Proyectos',
 
-        //Course 16 ReactJs Intermediate
-        course_title_16: 'ReactJs Avanzado / NextJs',
-        course_about_16: 'ReactJs Avanzado / NextJs.',
-        //Course 0 ReactNative Intermediate / Expert
-        course_title_15: 'React Native Intermedio',
-        course_about_15: 'Desarrollar aplicaciónes con conexión http usando Axios, implementación de navegación para múltiples pantallas, manejo de Estado local y usando Context, estilos, Diseño Flex, Notificaciones Push Google Maps ',
-        //Course 1 NgRx
-        course_title_14: 'Angular Redux con NgRx ',
-        course_about_14: 'Angular Redux NgRx ',
-        //Course 2 ReactNative Intermediate / Expert
-        course_title_13: 'React Native  Básico',
-        course_about_13: 'Desarrollar aplicaciones usando expo-cli y react-native-cli, manejando el estado en una sola pantalla.',
-        //Course 3 ReactJs Intermediate
-        course_title_12: 'ReactJs Intermedio',
-        course_about_12: 'ReactJs Intermedio.',
-        //Course 4  JavaScript ECS6+
-        course_title_11: 'JavaScript ECS6+',
-        course_about_11: ' JavaScript ECS6+.',
-        //Course 5 Flutter  Intermediate
-        course_title_10: 'Flutter  Intermedio',
-        course_about_10: 'Flutter  Intermedio.',
-        //Course 6 React JS Fundamentals
-        course_title_9: 'React JS Fundamentos',
-        course_about_9: 'React JS Fundamentos.',
-        //Course 7 React Modern JavaScript
-        course_title_8: 'JavaScript Moderno',
-        course_about_8: 'JavaScript Moderno.',
-        //Course 8 SASS
-        course_title_7: 'SASS',
-        course_about_7: 'SASS.',
-        //Course 9 Flutter Basic
-        course_title_6: 'Flutter Básico',
-        course_about_6: 'Flutter Básico.',
-        //Course 10 Big Data with Apache Spark
-        course_title_5: 'Big Data con Apache Spark',
-        course_about_5: 'Big Data con Apache Spark.',
-        //Course 11 Docker Docker Swarm
-        course_title_4: 'Docker Swarm',
-        course_about_4: 'Docker Swarm.',
-        //Course 12 Angular Intermediate / Expert 
-        course_title_3: 'Angular Intermedio / Experto ',
-        course_about_3: 'Angular Intermediato / Experto .',
-        //Course 13 Angular Basic
-        course_title_2: 'Angular Básico ',
-        course_about_2: 'Angular Básico.',
-        //Course 14 Docker Basic
+        //Course 9 NodeJS Basic: 
+        course_title_8: 'NodeJs Básico',
+        course_about_8: 'NodeJs Básico',
+        //Course 8 ReactNative Basic
+        course_title_7: 'React Native Básico',
+        course_about_7: 'Desarrollar aplicaciones usando expo-cli y react-native-cli, manejando el estado en una sola pantalla.',
+        //Course 7 ReactJs Intermediate
+        course_about_6: 'ReactJs Intermedio.',
+        course_title_6: 'ReactJs Intermedio',
+        //Course 6  JavaScript ECS6+
+        course_title_5: 'JavaScript ECS6+',
+        course_about_5: ' JavaScript ECS6+.',
+        //Course 5 React JS Fundamentals
+        course_title_4: 'React JS Fundamentos',
+        course_about_4: 'React JS Fundamentos.',
+        //Course 4 React Modern JavaScript
+        course_title_3: 'JavaScript Moderno',
+        course_about_3: 'JavaScript Moderno.',
+        //Course 3 Kotlin Basic
+        course_about_2: 'Kotlin Básico.',
+        course_title_2: 'Kotlin Básico',
+        //Course 2 Docker Basic
         course_title_1: 'Docker Básico ',
         course_about_1: 'Docker Básico.',
-        //Course 15 Git
+        //Course 1 Git
         course_title_0: 'Git Fundamentos',
         course_about_0: 'Git Fundamentos',
     },
     eng: {
         resume: 'Resume',
-        name: 'Ivan Ramses Martinez Ponce',
+        name: 'Pablo Nunez Fernandez',
         experience: 'Experience',
         portfolio: 'Portfolio',
         current_stack: 'Current Stack',
         today: 'Today',
         education: 'Education',
-        school: 'Computer Superior School',
-        career: 'Computer Systems Engineer',
-        description_1: 'FrontEnd React and Angular (Js & Ts) developer, with 8+ years of experience creating professional web applications.',
-        description_2: 'Mobile Developer 2+ years experience with ReactNative and Flutter.',
-        description_3: 'Experience with collaborative work and Agile (Scrum)',
+        school: 'IES Perez de Guzman',
+        career: 'Technician in Microcomputer System and Networks, Computer Science',
+        description_1: 'FrontEnd Developer with expertise in React and JavaScript, with basic knowledge of TypeScript and Node.js.',
+        description_2: 'My goals include focusing on React Native and mobile applications.',
+        description_3: 'I have experience working on personal projects but have not yet worked in a professional environment.',
         courses_title: 'Courses',
         projects_title: 'Projects',
-        //Course 16 ReactJs Intermediate
-        course_title_16: 'ReactJs Advance / NextJs',
-        course_about_16: 'ReactJs Advance / NextJs.',
 
-        //Course 0 ReactNative Intermediate / Expert
-        course_title_15: 'React Native Intermediate ',
-        course_about_15: 'Developing apps with http request using Axios, navigation screens, manage state locally and general using Context, styles, Flex Design, Push Notifications, Google Maps.',
-        //Course 1 NgRx
-        course_title_14: 'Angular Redux with NgRx ',
-        course_about_14: 'Angular Redux NgRx ',
-        //Course 2 ReactNative Basic
-        course_title_13: 'React Native  Basic',
-        course_about_13: 'Developing apps with expo and react-native-cli, managing the state in only one screen.',
-        //Course 3 ReactJs Intermediate
-        course_title_12: 'ReactJs Intermediate',
-        course_about_12: 'ReactJs Intermediate.',
-        //Course 4  JavaScript ECS6+
-        course_title_11: 'JavaScript ECS6+',
-        course_about_11: ' JavaScript ECS6+.',
-        //Course 5 Flutter  Intermediate
-        course_title_10: 'Flutter  Intermediate',
-        course_about_10: 'Flutter  Intermediate.',
-        //Course 6 React JS Fundamentals
-        course_title_9: 'React JS Fundamentals',
-        course_about_9: 'React JS Fundamentals.',
-        //Course 7 React Modern JavaScript
-        course_title_8: 'Modern JavaScript',
-        course_about_8: 'Modern JavaScript.',
-        //Course 8 SASS
-        course_title_7: 'SASS',
-        course_about_7: 'SASS.',
-        //Course 9 Flutter Basic
-        course_title_6: 'Flutter Basic',
-        course_about_6: 'Flutter Basic.',
-        //Course 10 Big Data with Apache Spark
-        course_title_5: 'Big Data with Apache Spark',
-        course_about_5: 'Big Data with Apache Spark.',
-        //Course 11 Docker Docker Swarm
-        course_title_4: 'Docker Swarm',
-        course_about_4: 'Docker Swarm.',
-        //Course 12 Angular Intermediate / Expert 
-        course_title_3: 'Angular Intermediate / Expert ',
-        course_about_3: 'Angular Intermediate / Expert .',
-        //Course 13 Angular Basic
-        course_title_2: 'Angular Basic ',
-        course_about_2: 'Angular Basic.',
-        //Course 14 Docker Basic
+        //Course 9 NodeJS Basic: 
+        course_title_8: 'NodeJs Basic',
+        course_about_8: 'NodeJs Basic',
+        //Course 8 ReactNative Basic
+        course_title_7: 'React Native Basic',
+        course_about_7: 'Developing apps with expo and react-native-cli, managing the state in only one screen.',
+        //Course 7 ReactJs Intermediate
+        course_about_6: 'ReactJs Intermediate.',
+        course_title_6: 'ReactJs Intermediate',
+        //Course 6  JavaScript ECS6+
+        course_title_5: 'JavaScript ECS6+',
+        course_about_5: ' JavaScript ECS6+.',
+        //Course 5 React JS Fundamentals
+        course_title_3: 'Modern JavaScript',
+        course_about_3: 'Modern JavaScript.',
+        //Course 4 React Modern JavaScript
+        course_title_4: 'React JS Fundamentals',
+        course_about_4: 'React JS Fundamentals.',
+        //Course 3 Kotlin Basic
+        course_title_2: 'Kotlin Basic',
+        course_about_2: 'Kotlin Basic.',
+        //Course 2 Docker Basic
         course_title_1: 'Docker Basic ',
         course_about_1: 'Docker Basic.',
-        //Course 14 Git Fundamentals
+        //Course 1 Git Fundamentals
         course_title_0: 'Git Fundamentals',
         course_about_0: 'Git Fundamentals',
-    }
+    }  
 }
 
 export const useLang = () => {
