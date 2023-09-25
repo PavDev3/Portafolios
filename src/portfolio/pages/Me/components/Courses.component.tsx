@@ -8,19 +8,19 @@ const courses = [
         img: '/img/nodejs.png',
         year: '2023',
         platform: 'Udemy',
-        tags: ['NodeJS', 'Express', 'MongoDB',  'React Native', 'API', 'Docker']
+        tags: ['NodeJs', 'Express', 'MongoDB',  'React Native', 'API', 'Docker']
     },
     {
         img: '/img/react.png',
         year: '2023',
         platform: 'Udemy',
-        tags: ['React', 'Context', 'Router', 'Formik', 'TS', 'Axios', 'LazyLoad', 'Suspense']
+        tags: ['React', 'Context', 'Router', 'TS', 'Axios', 'LazyLoad', 'Suspense']
     },
     {
         img: '/img/js.png',
         year: '2022',
         platform: 'freeCodeCamp',
-        tags: ['Js', 'ECS6+']
+        tags: ['Js', 'ECS6+', 'Arrow functions']
 
     },
     {
@@ -34,7 +34,7 @@ const courses = [
         img: '/img/js.png',
         year: '2023',
         platform: 'freeCodeCamp',
-        tags: ['Js', 'Arrow functions', 'Promises']
+        tags: ['Js', 'Promises', 'Data Structures', 'JavaScript Algorithms' ]
 
     },
     {

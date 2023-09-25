@@ -33,8 +33,8 @@ const langWords: any = {
         course_title_4: 'React JS Fundamentos',
         course_about_4: 'React JS Fundamentos.',
         //Course 4 React Modern JavaScript
-        course_title_3: 'JavaScript Moderno',
-        course_about_3: 'JavaScript Moderno.',
+        course_title_3: 'JavaScript Básico.',
+        course_about_3: 'JavaScript Básico',
         //Course 3 Kotlin Basic
         course_about_2: 'Kotlin Básico.',
         course_title_2: 'Kotlin Básico',
@@ -74,8 +74,8 @@ const langWords: any = {
         course_title_5: 'JavaScript ECS6+',
         course_about_5: ' JavaScript ECS6+.',
         //Course 5 React JS Fundamentals
-        course_title_3: 'Modern JavaScript',
-        course_about_3: 'Modern JavaScript.',
+        course_title_3: 'JavaScript Basic',
+        course_about_3: 'JavaScript Basic',
         //Course 4 React Modern JavaScript
         course_title_4: 'React JS Fundamentals',
         course_about_4: 'React JS Fundamentals.',
