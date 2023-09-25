@@ -18,7 +18,7 @@ const courses = [
     },
     {
         img: '/img/js.png',
-        year: '2022',
+        year: '2023',
         platform: 'freeCodeCamp',
         tags: ['Js', 'ECS6+', 'Arrow functions']
 
