@@ -26,7 +26,7 @@ const ResponsiveAppBar = () => {
         {
             label: page === 'Portfolio' ? w('experience') : w('portfolio'),
             type: 'internal',
-            icon: page === 'Portfolio' ? <WorkHistoryIcon sx={{ verticalAlign: 'middle', mr: 1 }} /> : <AccountCircleIcon sx={{ verticalAlign: 'middle', mr: 1 }} />,
+            // icon: page === 'Portfolio' ? <WorkHistoryIcon sx={{ verticalAlign: 'middle', mr: 1 }} /> : <AccountCircleIcon sx={{ verticalAlign: 'middle', mr: 1 }} />,
             url: page === 'Portfolio' ? 'Experience' : 'Portfolio'
         },
 
@@ -56,19 +56,20 @@ const ResponsiveAppBar = () => {
 
 
     return (
-        <AppBar position="fixed" sx={{ background: theme.palette.mode === 'light' ? blue[900] : grey[900] }}>
+        <AppBar position="fixed" sx={{ background: theme.palette.mode === 'light' ? blue[300] : grey[900] }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
 
 
-
-                    <Box sx={{ flexGrow: 1, display: 'flex' }}>
+                    {/* Este BOX es para activar la Experiencia 
+                    <Box sx={{ flexGrow: 1, display: 'flex' }}> */}
                         {/* <Tooltip title="Languages">
                             <IconButton onClick={handleOpenNavMenu} >
                                 <MenuIcon sx={{ color: theme.palette.common.white }} />
                             </IconButton>
                         </Tooltip> */}
 
+                    {/* 
                         {pages.map(({ label, type, url, icon }) => (
                             <MenuItem key={label} onClick={() => { handleCloseNavMenu(type, url) }}>
                                 {icon && (icon)}
@@ -77,7 +78,7 @@ const ResponsiveAppBar = () => {
                         ))}
 
 
-                    </Box>
+                    </Box> */}
 
                     <Box sx={{ flexGrow: 0, display: 'flex' }}>
                         <Tooltip title="Mode">
