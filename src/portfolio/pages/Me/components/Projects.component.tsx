@@ -77,10 +77,10 @@ const projects: IProject[] = [
     {
         background: '',
         link: '',
-        github: 'https://github.com/RamPonce7/Angular/tree/master/movie',
+        github: 'https://github.com/PavDev3/TraductorChatGPT',
         title: {
-            ENG: 'Project',
-            ESP: 'Proyecto'
+            ENG: 'Translate with ChatGPT',
+            ESP: 'Traductor con ChatGPT'
         },
         techs: ['react', 'ts'],
         description: {
