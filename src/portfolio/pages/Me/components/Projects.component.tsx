@@ -85,10 +85,10 @@ const projects: IProject[] = [
         techs: ['react', 'ts'],
         description: {
             ENG: [
-                'Futuro proyecto',
+                'Coming soon',
                 ''],
             ESP: [
-                'Proyecto futuro',
+                'Próximamente...',
                 ``],
 
         }
