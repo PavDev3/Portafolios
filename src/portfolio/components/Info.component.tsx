@@ -122,7 +122,7 @@ export const InfoComponent = () => {
                         />
                         <IconButton onClick={() => {
                             // TODO -> Crear un assset para introducir el PDF con el CV
-                            window.open('', '_blank');
+                            window.open('https://pavdev3.github.io/cv/', '_blank');
                         }}  >
                             < DescriptionIcon />
                         </IconButton>
