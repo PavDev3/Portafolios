@@ -11,7 +11,6 @@ function App() {
           <PortfolioRouter />
         </LangProvider>
       </ConfigAppProvider>
-
     </BrowserRouter>
   );
 }
