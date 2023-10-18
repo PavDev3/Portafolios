@@ -6,9 +6,9 @@ import { IProject } from "../../../interfaces/project.interface"
 
 const projects: IProject[] = [
     {
-        background: '',
+        background: 'videoclub.webp',
         // TODO Link 
-        link: '/projects/movies_react/',
+        link: '',
         github: 'https://github.com/PavDev3/videoclub',
         title: {
             ENG: 'New VideoClub App! (React)',
@@ -32,7 +32,7 @@ const projects: IProject[] = [
     },
     {
         // TODO -> Foto , y links 
-        background: '',
+        background: 'ecommerce.webp',
         link: '',
         github: 'https://github.com/PavDev3/React-eCommerce',
         title: {
@@ -54,29 +54,29 @@ const projects: IProject[] = [
         }
     },
     {
-        background: '',
+        background: 'calc.webp',
         link: '',
-        github: 'https://github.com/PavDev3/tic-tac-toe',
+        github: 'https://github.com/PavDev3/calculadora-prestamo',
         title: {
-            ENG: 'Tic Tac Toe (React)',
-            ESP: 'Tres en linea (React)'
+            ENG: 'Loan Calculator (React)',
+            ESP: 'Calculadora Préstamo (React)'
         },
         techs: ['react'],
         description: {
             ENG: [
-                'Basic Tic Tac Toe game'
-                , 'Where you can see the different states of the game.'
+                'Basic loan calculator with React.'
+                , 'You will be able to see React states. You will also be able to see the fees with a graph.'
                 , 'Using useEffect , useState.'
             ],
             ESP: [
-                'Juego básico de tres en linea'
-                , 'Donde se podrá ver los diferentes tipos de estados básicos que trae React para su renderizado.'
-                , 'Haciendo uso de useEffect , useState.'
+                'Calculadora de préstamos básica con React.'
+                , 'Podrás ver estados de React. También podrás ver los intereses con una gráfica'
+                , 'Usando useEffect , useState.'
             ]
         }
     },
     {
-        background: '',
+        background: 'traductor.webp',
         link: '',
         github: 'https://github.com/PavDev3/TraductorChatGPT',
         title: {
@@ -86,10 +86,10 @@ const projects: IProject[] = [
         techs: ['react', 'ts'],
         description: {
             ENG: [
-                'Coming soon',
+                'Translator with ChatGPT, you will need an API KEY from OpenAI to be able to use it. It is just a demonstration of how the OpenAI API can be used to translate text.',
                 ''],
             ESP: [
-                'Próximamente...',
+                'Traductor con ChatGPT, necesitarás una API KEY de OpenAI para poder usarlo. Es solo una demostración de como se puede usar la API de OpenAI para traducir texto.',
                 ``],
 
         }

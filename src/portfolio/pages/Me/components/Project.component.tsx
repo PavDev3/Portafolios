@@ -80,7 +80,7 @@ export const ProjectComponent = ({ project, index }: { project: IProject, index:
 
                             {techs.map((t) => (
                                 <IconButton key={t} >
-                                    <img src={`/img/${t}.png`} alt={t} width='24px' />
+                                    <img src={`/img/${t}.webp`} alt={t} width='24px' />
                                 </IconButton>
                             ))}
 
