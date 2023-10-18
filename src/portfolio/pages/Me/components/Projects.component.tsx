@@ -6,8 +6,7 @@ import { IProject } from "../../../interfaces/project.interface"
 
 const projects: IProject[] = [
     {
-        background: 'videoclub.webp',
-        // TODO Link 
+        background: 'videoclub.webp', 
         link: '',
         github: 'https://github.com/PavDev3/videoclub',
         title: {
@@ -20,8 +19,6 @@ const projects: IProject[] = [
                 'Web application developed in React. Connected to a movie API'
                 , 'The page displays a list of movies.'
                 , 'Movies can be sorted alphabetically.'
-
-
             ],
             ESP: [
                 'Aplicación web desarrollada en React. Conectada a una API de películas.'
@@ -86,11 +83,11 @@ const projects: IProject[] = [
         techs: ['react', 'ts'],
         description: {
             ENG: [
-                'Translator with ChatGPT, you will need an API KEY from OpenAI to be able to use it. It is just a demonstration of how the OpenAI API can be used to translate text.',
-                ''],
+                'Translator with ChatGPT, you will need an API KEY from OpenAI to be able to use it. It is just a demonstration of how the OpenAI API can be used to translate text.'
+            ],
             ESP: [
-                'Traductor con ChatGPT, necesitarás una API KEY de OpenAI para poder usarlo. Es solo una demostración de como se puede usar la API de OpenAI para traducir texto.',
-                ``],
+                'Traductor con ChatGPT, necesitarás una API KEY de OpenAI para poder usarlo. Es solo una demostración de como se puede usar la API de OpenAI para traducir texto.'
+            ],
 
         }
     }

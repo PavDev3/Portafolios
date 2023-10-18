@@ -17,21 +17,21 @@ const langWords: any = {
         courses_title: 'Cursos',
         projects_title: 'Proyectos',
 
-        //Course 9 NodeJS Basic: 
-        course_title_8: 'NodeJs Básico',
-        course_about_8: 'NodeJs Básico',
-        //Course 8 ReactNative Basic
-        course_title_7: 'React Native Básico',
-        course_about_7: 'Desarrollar aplicaciones usando expo-cli y react-native-cli, manejando el estado en una sola pantalla.',
+        //Course 9 Siguiente curso: 
+        course_title_8: 'Nuevo curso',
+        course_about_8: 'nuevo curso',
+        //Course 8 NodeJS Basic:
+        course_title_7: 'NodeJS Básico',
+        course_about_7: 'NodeJS Básico',
         //Course 7 ReactJs Intermediate
-        course_about_6: 'ReactJs Intermedio.',
-        course_title_6: 'ReactJs Intermedio',
-        //Course 6  JavaScript ECS6+
-        course_title_5: 'JavaScript ECS6+',
-        course_about_5: ' JavaScript ECS6+.',
+        course_about_6: 'React Intermedio.',
+        course_title_6: 'React Intermedio',
+        //Course 6  TypeScript Básico
+        course_title_5: 'TypeScript Básico',
+        course_about_5: 'TypeScript Básico',
         //Course 5 React JS Fundamentals
-        course_title_4: 'React JS Fundamentos',
-        course_about_4: 'React JS Fundamentos.',
+        course_title_4: 'React Básico',
+        course_about_4: 'React Básico.',
         //Course 4 React Modern JavaScript
         course_title_3: 'JavaScript Básico.',
         course_about_3: 'JavaScript Básico',
@@ -61,25 +61,26 @@ const langWords: any = {
         courses_title: 'Courses',
         projects_title: 'Projects',
 
-        //Course 9 NodeJS Basic: 
-        course_title_8: 'NodeJs Basic',
-        course_about_8: 'NodeJs Basic',
+        //Course 9 New Course: 
+        course_title_8: 'New course',
+        course_about_8: 'new course',
         //Course 8 ReactNative Basic
-        course_title_7: 'React Native Basic',
-        course_about_7: 'Developing apps with expo and react-native-cli, managing the state in only one screen.',
+        course_title_7: 'NodeJS Basic',
+        course_about_7: 'NodeJS Basic',
         //Course 7 ReactJs Intermediate
-        course_about_6: 'ReactJs Intermediate.',
-        course_title_6: 'ReactJs Intermediate',
+        course_about_6: 'React Intermediate.',
+        course_title_6: 'React Intermediate',
         //Course 6  JavaScript ECS6+
-        course_title_5: 'JavaScript ECS6+',
-        course_about_5: ' JavaScript ECS6+.',
-        //Course 5 React JS Fundamentals
+        course_title_5: 'TypeScript Basic',
+        course_about_5: 'TypeScript Basic',
+
+        //Course 4 React Modern JavaScript
+        course_title_4: 'React basic',
+        course_about_4: 'React basic',
+        //Course 3 React JS Fundamentals
         course_title_3: 'JavaScript Basic',
         course_about_3: 'JavaScript Basic',
-        //Course 4 React Modern JavaScript
-        course_title_4: 'React JS Fundamentals',
-        course_about_4: 'React JS Fundamentals.',
-        //Course 3 Kotlin Basic
+        //course 2 Kotlin Basic
         course_title_2: 'Kotlin Basic',
         course_about_2: 'Kotlin Basic.',
         //Course 2 Docker Basic

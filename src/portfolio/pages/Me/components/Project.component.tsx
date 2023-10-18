@@ -79,7 +79,7 @@ export const ProjectComponent = ({ project, index }: { project: IProject, index:
                         }}>
 
                             {techs.map((t) => (
-                                <IconButton key={t} >
+                                <IconButton key={t} disabled >
                                     <img src={`/img/${t}.webp`} alt={t} width='24px' />
                                 </IconButton>
                             ))}
@@ -126,11 +126,6 @@ export const ProjectComponent = ({ project, index }: { project: IProject, index:
                     </Collapse>
 
                 </Box>
-
-
-
-
-
             </Paper>
         </Grid>
     )

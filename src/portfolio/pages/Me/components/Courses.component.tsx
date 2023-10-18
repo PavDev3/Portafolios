@@ -14,21 +14,21 @@ const courses = [
     {
         img: '/img/react.webp',
         year: '2023',
-        platform: 'Udemy',
-        tags: ['React', 'Context', 'Router', 'TS', 'Axios', 'LazyLoad', 'Suspense']
+        platform: 'FSOpen',
+        tags: ['Hooks', 'Redux', 'Router', 'Material-UI', 'Axios', 'API',  'Firebase', 'Hosting']
     },
     {
-        img: '/img/js.webp',
+        img: '/img/ts.webp',
         year: '2023',
-        platform: 'freeCodeCamp',
-        tags: ['Js', 'ECS6+', 'Arrow functions']
+        platform: 'FSOpen',
+        tags: ['TS Types', 'TS Inference', 'Interfaces', 'Generics', 'TS Classes', 'TS Modules', 'TS Decorators',]
 
     },
     {
         img: '/img/react.webp',
         year: '2023',
         platform: 'FSOpen',
-        tags: ['React', 'Components', 'State', 'Styled']
+        tags: ['DOM', 'Components', 'State', 'Props']
 
     },
     {
@@ -41,8 +41,8 @@ const courses = [
     {
         img: '/img/kotlin.webp',
         year: '2022',
-        platform: 'Udemy',
-        tags: ['Kotlin', 'JetPackCompose', 'Components', 'MVVM', 'Services']
+        platform: 'Appcademy',
+        tags: ['JetPackCompose', 'Components', 'MVVM', 'Services']
 
     },
     {
