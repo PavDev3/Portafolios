@@ -1,3 +1,4 @@
+import React from 'react';
 import { Grid, useTheme } from "@mui/material"
 import { ProjectComponent } from "./Project.component"
 import { IProject } from "../../../interfaces/project.interface"

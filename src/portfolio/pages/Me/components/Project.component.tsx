@@ -1,4 +1,5 @@
 import { Box, Collapse, Divider, Grid, IconButton, Paper, Stack, Typography, useTheme } from '@mui/material';
+import React from 'react';
 import { IProject } from '../../../interfaces/project.interface'
 import { useLangContext } from '../../../state/lang/langContext';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';

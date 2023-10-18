@@ -1,6 +1,7 @@
 
 import { Box, Container, useTheme } from '@mui/material'
 import ResponsiveAppBar from './AppBar.component';
+import React from 'react';
 import { Suspense, useEffect } from 'react';
 import { InfoComponent } from './Info.component';
 import ExperiencePage from '../pages/Experience/Experience.page';

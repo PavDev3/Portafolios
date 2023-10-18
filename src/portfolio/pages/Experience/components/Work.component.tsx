@@ -1,4 +1,5 @@
 import { KeyboardArrowUp } from "@mui/icons-material"
+import React from 'react';
 import { Box, Collapse, Divider, IconButton, Paper, Stack, Typography, useTheme } from "@mui/material"
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { useLangContext } from "../../../state/lang/langContext";

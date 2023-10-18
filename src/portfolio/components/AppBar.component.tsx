@@ -1,4 +1,5 @@
 import { FormControl, Select, SelectChangeEvent, useTheme } from "@mui/material";
+import React from 'react';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useConfigAppContext } from "../state/configApp/configAppContext";
 import LightModeIcon from '@mui/icons-material/LightMode';

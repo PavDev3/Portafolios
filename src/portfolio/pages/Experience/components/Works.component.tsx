@@ -1,4 +1,5 @@
 import { Box, Grid, Paper, Stack, Typography, useTheme } from "@mui/material"
+import React from 'react';
 import WorkComponent from "./Work.component"
 import { IWork } from "../../../interfaces/work.interface"
 import { useLangContext } from "../../../state/lang/langContext"

@@ -1,4 +1,5 @@
 import { Avatar, Box, Grid, IconButton, Paper, Snackbar, Stack, Tooltip, Typography, useTheme } from '@mui/material'
+import React from 'react';
 import DescriptionIcon from '@mui/icons-material/Description';
 import { useLangContext } from '../state/lang/langContext';
 import { GitHub, LinkedIn, Mail } from '@mui/icons-material';
@@ -61,7 +62,7 @@ export const InfoComponent = () => {
 
                         <Avatar
                             alt={w('name')}
-                            src="/img/me.jpg"
+                            src="/img/me.webp"
                             sx={{ width: 56, height: 56, boxShadow: '0px 3px 3px -2px #1976d2, 0px 3px 4px 0px #42a5f5, 0px 1px 8px 0px #1565c0;' }}
                         />
                     </Box>
@@ -121,7 +122,6 @@ export const InfoComponent = () => {
                             message="pnunfe@gmail.com"
                         />
                         <IconButton onClick={() => {
-                            // TODO -> Crear un assset para introducir el PDF con el CV
                             window.open('https://pavdev3.github.io/cv/', '_blank');
                         }}  >
                             < DescriptionIcon />
@@ -153,7 +153,7 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='60px'>
-                                <img alt='react' src="/img/react.png" width='100%' />
+                                <img alt='react' src="/img/react.webp" width='100%' />
                             </Box>
                         </Grid>
                         <Grid item xs={4} sx={{
@@ -161,7 +161,7 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='80px'>
-                                <img alt='JavaScript' src="/img/js.png" width='100%' />
+                                <img alt='JavaScript' src="/img/js.webp" width='100%' />
                             </Box>
                         </Grid>
                         <Grid item xs={4} sx={{
@@ -169,7 +169,31 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='80px'>
-                                <img alt='typescript' src="/img/ts.png" width='100%' />
+                                <img alt='typescript' src="/img/ts.webp" width='100%' />
+                            </Box>
+                        </Grid>
+                        <Grid item xs={4} sx={{
+                            'display': 'flex',
+                            justifyContent: 'space-around'
+                        }}>
+                            <Box maxWidth='80px'>
+                                <img alt='docker' src="/img/docker.webp" width='100%' />
+                            </Box>
+                        </Grid>
+                        <Grid item xs={4} sx={{
+                            'display': 'flex',
+                            justifyContent: 'space-around'
+                        }}>
+                            <Box maxWidth='80px'>
+                                <img alt='git' src="/img/git.webp" width='100%' />
+                            </Box>
+                        </Grid>
+                        <Grid item xs={4} sx={{
+                            'display': 'flex',
+                            justifyContent: 'space-around'
+                        }}>
+                            <Box maxWidth='80px'>
+                                <img alt='node' src="/img/nodejs.webp" width='100%' />
                             </Box>
                         </Grid>
 

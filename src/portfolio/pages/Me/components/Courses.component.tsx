@@ -1,51 +1,52 @@
 
 import { useLangContext } from "../../../state/lang/langContext"
+import React from 'react';
 import { Box, Chip, Grid, Paper, Stack, Typography, useTheme } from "@mui/material"
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import SchoolIcon from '@mui/icons-material/School';
 const courses = [
     {
-        img: '/img/nodejs.png',
+        img: '/img/nodejs.webp',
         year: '2023',
         platform: 'Udemy',
         tags: ['NodeJs', 'Express', 'MongoDB',  'React Native', 'API', 'Docker']
     },
     {
-        img: '/img/react.png',
+        img: '/img/react.webp',
         year: '2023',
         platform: 'Udemy',
         tags: ['React', 'Context', 'Router', 'TS', 'Axios', 'LazyLoad', 'Suspense']
     },
     {
-        img: '/img/js.png',
+        img: '/img/js.webp',
         year: '2023',
         platform: 'freeCodeCamp',
         tags: ['Js', 'ECS6+', 'Arrow functions']
 
     },
     {
-        img: '/img/react.png',
+        img: '/img/react.webp',
         year: '2023',
         platform: 'FSOpen',
         tags: ['React', 'Components', 'State', 'Styled']
 
     },
     {
-        img: '/img/js.png',
+        img: '/img/js.webp',
         year: '2023',
         platform: 'freeCodeCamp',
         tags: ['Js', 'Promises', 'Data Structures', 'JavaScript Algorithms' ]
 
     },
     {
-        img: '/img/kotlin.png',
+        img: '/img/kotlin.webp',
         year: '2022',
         platform: 'Udemy',
         tags: ['Kotlin', 'JetPackCompose', 'Components', 'MVVM', 'Services']
 
     },
     {
-        img: '/img/docker.png',
+        img: '/img/docker.webp',
         year: '2023',
         platform: 'Udemy',
         tags: ['Docker', 'Images', 'Dockerfile',]
@@ -53,7 +54,7 @@ const courses = [
     },
 
     {
-        img: '/img/git.png',
+        img: '/img/git.webp',
         year: '2022',
         platform: 'Udemy',
         tags: ['Git', 'Commands', 'Github']

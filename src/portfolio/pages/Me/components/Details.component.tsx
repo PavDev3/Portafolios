@@ -1,4 +1,5 @@
 import { Box, Collapse, Divider, IconButton, Stack, Typography, useTheme } from "@mui/material"
+import React from 'react';
 import { useLangContext } from "../../../state/lang/langContext"
 import CoursesComponent from "./Courses.component"
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
@@ -18,7 +19,6 @@ export const DetailsComponent = () => {
             },
 
         }}>
-
 
             <Stack sx={{
                 flexDirection: 'row',
