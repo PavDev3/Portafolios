@@ -62,7 +62,7 @@ export const InfoComponent = () => {
 
                         <Avatar
                             alt={w('name')}
-                            src="/img/me.webp"
+                            src="/img/me.jpg"
                             sx={{ width: 56, height: 56, boxShadow: '0px 3px 3px -2px #1976d2, 0px 3px 4px 0px #42a5f5, 0px 1px 8px 0px #1565c0;' }}
                         />
                     </Box>
@@ -153,7 +153,7 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='60px'>
-                                <img alt='react' src="/img/react.webp" width='100%' />
+                                <img alt='react' src="/img/react.png" width='100%' />
                             </Box>
                         </Grid>
                         <Grid item xs={4} sx={{
@@ -161,7 +161,7 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='80px'>
-                                <img alt='JavaScript' src="/img/js.webp" width='100%' />
+                                <img alt='JavaScript' src="/img/js.png" width='100%' />
                             </Box>
                         </Grid>
                         <Grid item xs={4} sx={{
@@ -169,7 +169,7 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='80px'>
-                                <img alt='typescript' src="/img/ts.webp" width='100%' />
+                                <img alt='typescript' src="/img/ts.png" width='100%' />
                             </Box>
                         </Grid>
                         <Grid item xs={4} sx={{
@@ -177,7 +177,7 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='80px'>
-                                <img alt='docker' src="/img/docker.webp" width='100%' />
+                                <img alt='docker' src="/img/docker.png" width='100%' />
                             </Box>
                         </Grid>
                         <Grid item xs={4} sx={{
@@ -185,7 +185,7 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='80px'>
-                                <img alt='git' src="/img/git.webp" width='100%' />
+                                <img alt='git' src="/img/git.png" width='100%' />
                             </Box>
                         </Grid>
                         <Grid item xs={4} sx={{
@@ -193,7 +193,7 @@ export const InfoComponent = () => {
                             justifyContent: 'space-around'
                         }}>
                             <Box maxWidth='80px'>
-                                <img alt='node' src="/img/nodejs.webp" width='100%' />
+                                <img alt='node' src="/img/nodejs.png" width='100%' />
                             </Box>
                         </Grid>
 

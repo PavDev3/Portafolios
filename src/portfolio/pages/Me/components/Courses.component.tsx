@@ -6,47 +6,47 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import SchoolIcon from '@mui/icons-material/School';
 const courses = [
     {
-        img: '/img/nodejs.webp',
+        img: '/img/nodejs.png',
         year: '2023',
         platform: 'Udemy',
         tags: ['NodeJs', 'Express', 'MongoDB',  'React Native', 'API', 'Docker']
     },
     {
-        img: '/img/react.webp',
+        img: '/img/react.png',
         year: '2023',
         platform: 'FSOpen',
         tags: ['Hooks', 'Redux', 'Router', 'Material-UI', 'Axios', 'API',  'Firebase', 'Hosting']
     },
     {
-        img: '/img/ts.webp',
+        img: '/img/ts.png',
         year: '2023',
         platform: 'FSOpen',
         tags: ['TS Types', 'TS Inference', 'Interfaces', 'Generics', 'TS Classes', 'TS Modules', 'TS Decorators',]
 
     },
     {
-        img: '/img/react.webp',
+        img: '/img/react.png',
         year: '2023',
         platform: 'FSOpen',
         tags: ['DOM', 'Components', 'State', 'Props']
 
     },
     {
-        img: '/img/js.webp',
+        img: '/img/js.png',
         year: '2023',
         platform: 'freeCodeCamp',
         tags: ['Js', 'Promises', 'Data Structures', 'JavaScript Algorithms' ]
 
     },
     {
-        img: '/img/kotlin.webp',
+        img: '/img/kotlin.png',
         year: '2022',
         platform: 'Appcademy',
         tags: ['JetPackCompose', 'Components', 'MVVM', 'Services']
 
     },
     {
-        img: '/img/docker.webp',
+        img: '/img/docker.png',
         year: '2023',
         platform: 'Udemy',
         tags: ['Docker', 'Images', 'Dockerfile',]
@@ -54,7 +54,7 @@ const courses = [
     },
 
     {
-        img: '/img/git.webp',
+        img: '/img/git.png',
         year: '2022',
         platform: 'Udemy',
         tags: ['Git', 'Commands', 'Github']

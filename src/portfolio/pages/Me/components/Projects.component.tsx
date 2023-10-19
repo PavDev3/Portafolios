@@ -6,7 +6,7 @@ import { IProject } from "../../../interfaces/project.interface"
 
 const projects: IProject[] = [
     {
-        background: 'videoclub.webp', 
+        background: 'videoclub.png', 
         link: '',
         github: 'https://github.com/PavDev3/videoclub',
         title: {
@@ -29,7 +29,7 @@ const projects: IProject[] = [
     },
     {
         // TODO -> Foto , y links 
-        background: 'ecommerce.webp',
+        background: 'ecommerce.png',
         link: '',
         github: 'https://github.com/PavDev3/React-eCommerce',
         title: {
@@ -51,7 +51,7 @@ const projects: IProject[] = [
         }
     },
     {
-        background: 'calc.webp',
+        background: 'calc.png',
         link: '',
         github: 'https://github.com/PavDev3/calculadora-prestamo',
         title: {
@@ -73,7 +73,7 @@ const projects: IProject[] = [
         }
     },
     {
-        background: 'traductor.webp',
+        background: 'traductor.png',
         link: '',
         github: 'https://github.com/PavDev3/TraductorChatGPT',
         title: {
